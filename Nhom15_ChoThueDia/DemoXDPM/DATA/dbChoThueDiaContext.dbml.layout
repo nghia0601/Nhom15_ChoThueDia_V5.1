@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 8.5" name="dbChoThueDiaContext">
+  <DataContextMoniker Name="/dbChoThueDiaContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b347d3ee-6f4c-4e34-9001-7f30303ad95e" absoluteBounds="6.25, 4, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/dbChoThueDiaContextDataContext/tbDiaCD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea14829e-e527-4ee7-8e0b-5e3d94573823" absoluteBounds="6.265, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b5b4008-e25f-43ad-a260-9758b3471c22" absoluteBounds="3.5, 1.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/dbChoThueDiaContextDataContext/tbKhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14576302-0754-4bb9-b693-eb2f3e454bed" absoluteBounds="3.515, 1.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27e240d5-8d7d-4843-a444-15a34b87ea8b" absoluteBounds="9, 3.375, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/dbChoThueDiaContextDataContext/tbLapPhieuThue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1040017a-80dc-4dcf-b205-42834e749f29" absoluteBounds="9.015, 3.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db1d1538-5394-42db-974d-aedd9f9cc1ad" absoluteBounds="0.75, 3.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/dbChoThueDiaContextDataContext/tbLoaiDia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72b29e3e-2677-4290-a4a2-ed1f4c87290b" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d48c084-f7bf-48e7-a369-edd545384bbf" absoluteBounds="6.25, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/dbChoThueDiaContextDataContext/tbThongTinDatTruoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b01564a-17df-43a0-aece-9bcadb20a37c" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90a12a6c-219d-44eb-94cf-80ee33a43881" absoluteBounds="3.5, 3.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dbChoThueDiaContextDataContext/tbTieuDe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="931621a4-33c3-4c4b-a89a-12a8156669df" absoluteBounds="3.515, 4.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 4.69314697265625); (9 : 4.69314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbChoThueDiaContextDataContext/tbDiaCD/tbDiaCD_tbLapPhieuThue" />
+      <nodes>
+        <classShapeMoniker Id="b347d3ee-6f4c-4e34-9001-7f30303ad95e" />
+        <classShapeMoniker Id="27e240d5-8d7d-4843-a444-15a34b87ea8b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.73964680989583); (5.79166666666667 : 2.73964680989583 : JumpStart); (5.95833333333333 : 2.73964680989583 : JumpEnd); (10 : 2.73964680989583); (10 : 3.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbChoThueDiaContextDataContext/tbKhachHang/tbKhachHang_tbLapPhieuThue" />
+      <nodes>
+        <classShapeMoniker Id="1b5b4008-e25f-43ad-a260-9758b3471c22" />
+        <classShapeMoniker Id="27e240d5-8d7d-4843-a444-15a34b87ea8b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.82294840494792); (6.25 : 1.82294840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbChoThueDiaContextDataContext/tbKhachHang/tbKhachHang_tbThongTinDatTruoc" />
+      <nodes>
+        <classShapeMoniker Id="1b5b4008-e25f-43ad-a260-9758b3471c22" />
+        <classShapeMoniker Id="0d48c084-f7bf-48e7-a369-edd545384bbf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.69314697265625); (6.25 : 4.69314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbChoThueDiaContextDataContext/tbTieuDe/tbTieuDe_tbDiaCD" />
+      <nodes>
+        <classShapeMoniker Id="90a12a6c-219d-44eb-94cf-80ee33a43881" />
+        <classShapeMoniker Id="b347d3ee-6f4c-4e34-9001-7f30303ad95e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.875); (5.875 : 3.5); (5.875 : 1.25522220247396); (6.25 : 1.25522220247396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbChoThueDiaContextDataContext/tbTieuDe/tbTieuDe_tbThongTinDatTruoc" />
+      <nodes>
+        <classShapeMoniker Id="90a12a6c-219d-44eb-94cf-80ee33a43881" />
+        <classShapeMoniker Id="0d48c084-f7bf-48e7-a369-edd545384bbf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.66429768880208); (3.5 : 4.66429768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbChoThueDiaContextDataContext/tbLoaiDia/tbLoaiDia_tbTieuDe" />
+      <nodes>
+        <classShapeMoniker Id="db1d1538-5394-42db-974d-aedd9f9cc1ad" />
+        <classShapeMoniker Id="90a12a6c-219d-44eb-94cf-80ee33a43881" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
